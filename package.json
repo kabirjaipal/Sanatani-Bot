@@ -1,0 +1,17 @@
+{
+  "name": "discord-handler",
+  "version": "1.0.0",
+  "description": "a best handler for discord bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "KABIRSINGH2004",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  }
+}
