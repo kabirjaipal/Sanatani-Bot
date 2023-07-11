@@ -17,6 +17,7 @@ export default {
           ephemeral: true,
         });
       } else {
+        await interaction.deferReply().catch((e) => {});
         if (
           command.userPermissions &&
           !interaction.member.permissions.has(

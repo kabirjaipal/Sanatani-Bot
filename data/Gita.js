@@ -1,4 +1,5 @@
 import gitaData from "./gita-data.js";
+import gitaSummary from "./gita-summary.js";
 
 export default class Gita {
   constructor() {
@@ -50,5 +51,9 @@ export default class Gita {
     const verse = chapter.verses.at(verseIndex);
 
     return verse;
+  }
+
+  getSummary() {
+    return gitaSummary;
   }
 }

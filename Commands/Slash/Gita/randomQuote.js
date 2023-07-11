@@ -1,4 +1,8 @@
-import { ApplicationCommandType, PermissionFlagsBits } from "discord.js";
+import {
+  ApplicationCommandType,
+  EmbedBuilder,
+  PermissionFlagsBits,
+} from "discord.js";
 
 /**
  * @type {import("../../../index.js").Scommand}
@@ -35,6 +39,7 @@ export default {
           ])
           .setFooter(client.config.footer),
       ],
+      ephemeral: true,
     });
   },
 };

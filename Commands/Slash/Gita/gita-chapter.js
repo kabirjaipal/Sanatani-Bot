@@ -1,7 +1,11 @@
 import {
   ApplicationCommandOptionType,
   ApplicationCommandType,
+  ComponentType,
+  EmbedBuilder,
   PermissionFlagsBits,
+  ActionRowBuilder,
+  StringSelectMenuBuilder,
 } from "discord.js";
 
 /**
@@ -25,7 +29,7 @@ export default {
 
   run: async (client, interaction) => {
     // Code
-    const index = Number(interaction.options.get("chapter"));
+    const index = interaction.options.get("chapter", true)?.value;
 
     if (!index) {
       return client.send(interaction, {
@@ -80,6 +84,7 @@ export default {
           .setFooter(client.config.footer),
       ],
       components: selectMenus,
+      ephemeral: true,
     });
 
     const collector = await msg.createMessageComponentCollector({
