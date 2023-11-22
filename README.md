@@ -1,23 +1,16 @@
-# Hi, I'm Kabir! 👋
+## Sanatan Discord Bot 🕉️
 
-I'm a Discord Bot Developer and My Sanatan Discord Bot Which Will Help Users to Read Bhagvat Gita
+Hi, I'm Kabir, a Discord Bot Developer, and welcome to the Sanatan Discord Bot – a bot designed to help users read Bhagavad Gita and Vedas, generated with AI using Chat GPT.
 
-Note : Bhagvat Gita Generated from AI using Chat GPT , so if you find anything wrong make pull request
+## Installation | How to use the Bot
 
-## **Installation | How to use the Handler**
+Sanatan Discord Bot helps users explore scriptures in Hindi and English. Follow these steps to set up and use the bot:
 
-Sanatan Discord Bot Which Will Help Users to Read Bhagvat Gita and Vedas and more...
-
-**3.** Fill in everything in **`settings/config.js`**
-
-**4.** after Fill everything in config Type in shall **`npm install`**
-
-**5.** start the bot with **`node index.js`**
-<br/>
+1. Fill in the required details in **`settings/config.js`**.
 
 ### _Modify - config.js_
 
-```js
+```javascript
 import { Colors } from "discord.js";
 
 const settings = {
@@ -33,22 +26,35 @@ const settings = {
 export default settings;
 ```
 
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the bot:
+
+   ```bash
+   node index.js
+   ```
+
 ## Bot Features
 
-- for sanatan dharma
-- you can read scriptures in hindi and english
-- for now bot support only bhagvat gita but in feature we will include more
-- you can contribute to make it more better
+- For Sanatan Dharma enthusiasts
+- Read scriptures in Hindi and English
+- Currently supports Bhagavad Gita; more scriptures to be included in the future
+- Contribute to make it even better!
 
 ## Feedback
 
-If you have any feedback, please reach out to us at [Discord Server](https://discord.gg/PcUVWApWN3)
+If you have any feedback or suggestions, please join our [Discord Server](https://discord.gg/PcUVWApWN3).
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
-<br/>
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-# Thanks For Using Mine Handler Please Give a Star
+# Thanks For Using Sanatan Discord Bot! 🌟
 
-If Any Bug Open Pull Request
+If you encounter any bugs or have suggestions, feel free to open a pull request.
+
+Happy spiritual exploration! 🙏
