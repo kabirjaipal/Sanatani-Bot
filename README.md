@@ -53,7 +53,7 @@ If you have any feedback or suggestions, please join our [Discord Server](https:
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-# Thanks For Using Sanatan Discord Bot! 🌟
+## Thanks For Using Sanatan Discord Bot! 🌟
 
 If you encounter any bugs or have suggestions, feel free to open a pull request.
 
